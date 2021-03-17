@@ -6,7 +6,7 @@ import org.codehaus.groovy.control.CompilerConfiguration;
 import groovy.lang.Binding
 import java.io.FileNotFoundException
 
-class DynamicClassLoader extends GroovyClassLoader {
+class DynamicGroovyClassLoader extends GroovyClassLoader {
 
 	private GroovyShell gs
 	private Binding bdg
